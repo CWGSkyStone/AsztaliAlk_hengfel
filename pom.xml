@@ -20,6 +20,11 @@
             <artifactId>javafx-fxml</artifactId>
             <version>13</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.12.0</version>
+        </dependency>        
     </dependencies>
     <build>
         <plugins>
@@ -41,7 +46,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>dev.skystone.App</mainClass>
+                            <mainClass>com.example.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>
