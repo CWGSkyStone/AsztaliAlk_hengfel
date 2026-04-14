@@ -1,0 +1,4 @@
+/target
+tesztesetek.txt
+*.class
+*.jar
